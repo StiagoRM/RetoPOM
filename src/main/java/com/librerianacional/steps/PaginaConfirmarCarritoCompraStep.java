@@ -16,7 +16,6 @@ public class PaginaConfirmarCarritoCompraStep {
     public void validarCarritoCompras(){
         Assert.assertThat(paginaConfirmarCarritoCompraPageObject.getDriver().findElement
                 (paginaConfirmarCarritoCompraPageObject.getMsjValidacion()).isDisplayed(), Matchers.is(true));
-        esperaImplicita.esperaImplicita(10);
 
     }
 }
